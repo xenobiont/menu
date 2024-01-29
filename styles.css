@@ -1,0 +1,28 @@
+ul {
+	list-style: none;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+}
+
+.navbar {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.navbar__item {
+	background-color: #000;
+	color: white;
+	font-family: Arial;
+}
+
+.navbar__link {
+	padding: 1em;
+}
+
+.active {
+	background: orange;
+}
